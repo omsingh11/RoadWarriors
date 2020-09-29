@@ -1,0 +1,36 @@
+.holder {
+  
+    border: 2px solid red;
+    border-left: 3px solid blue;
+    border-radius: 9px;
+    margin: -15px 50px 25px 0px;
+    width:1150px;
+    height:230px;
+    overflow:hidden;
+    padding: 10px;
+    font-family:"Sofia";
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(253, 0, 0, 0.3);
+
+  }
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width:1200px;
+  height:240px;
+  overflow: hidden;
+}
+.holder ul {
+  list-style:none;
+  margin:0px 60px 0px;
+  padding:0;
+  position: relative;
+}
+.holder ul li {
+  padding:10px 0px;
+}
+.holder ul li a {
+  color:darkred;
+  text-decoration:none;
+}
